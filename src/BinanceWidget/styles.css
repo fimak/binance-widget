@@ -1,0 +1,113 @@
+.binance-widget {
+  width: 320px;
+  padding: 10px 0 0 13px;
+  margin: 20px 0 0 20px;
+  border-top: 1px solid #EAECEF;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #76808F;
+}
+.title {
+  text-align: left;
+  border-bottom: 1px solid #EAECEF;
+  line-height: 38px;
+  font-size: 18px;
+  color: #1E2026;
+}
+.currencies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currencies__item {
+  text-decoration: none;
+  line-height: 48px;
+  color: #76808F;
+  font-size: 14px;
+}
+.currencies__item {
+  position: relative;
+}
+.currencies__item--icon {
+  padding-right: 20px;
+}
+.arrow-icon {
+  position: absolute;
+  top: 14px;
+  right: 0;
+}
+.arrows-icon {
+  position: relative;
+  top: 5px;
+}
+.search-bar {
+  text-align: left;
+  line-height: 36px;
+  font-size: 14px;
+  position: relative;
+}
+.search-bar__field {
+  width: 145px;
+  line-height: 32px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #E6E8EA;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-right: 16px;
+
+}
+.loupe-icon {
+  position: absolute;
+  top: 8px;
+}
+
+.markets {
+  width: 320px;
+  max-height: 200px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #EAECEF;
+  padding: 7px 0 16px 0;
+  text-align: right;
+}
+.markets__head {
+  font-size: 14px;
+  line-height: 38px;
+}
+.markets__row {
+  font-size: 14px;
+  line-height: 26px;
+}
+.markets__row:hover {
+  background-color: #F5F5F5;
+}
+
+.markets__row td {
+  position: relative;
+}
+th {
+  position: relative;
+}
+th:first-child,
+.markets__row td:first-child {
+  text-align: left;
+}
+
+td:nth-child(3) {
+  min-width: 80px;
+}
+.favorite {
+  position: relative;
+  top: 1px;
+}
+.last-price {
+  color: #1E2026;
+}
+.change {
+  color: #02c076;
+}
+.change--negative {
+  color: #f84960;
+}
